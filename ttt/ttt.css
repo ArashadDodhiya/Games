@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Pixelify+Sans:wght@600&display=swap');
+.cell {
+    height: 75px;
+    width: 75px;
+    border: 2px solid black;
+    box-shadow: 0 0 0 2px;
+    font-size: 50px;
+    cursor: pointer;
+    line-height: 75px;
+    border-radius: 10px;
+    /* font-family: 'Pixelify Sans', sans-serif; */
+    font-family: 'Patrick Hand', cursive;
+}
+
+.ttt{
+    color:  #3b00b3;
+}
+
+#gameContainer {
+    /* font-family: "Consolas"; */
+    text-align: center;
+    background-color: #00ffbf;
+    max-width: 350px;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 0 auto;
+    /* font-family: 'Pixelify Sans', sans-serif; */
+    font-family: 'Patrick Hand', cursive;
+}
+
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+    /* font-family: "Consolas"; */
+    /* font-family: 'Pixelify Sans', sans-serif; */
+    font-family: 'Patrick Hand', cursive;
+    /* lighting-color: #000066; */
+}
+
+#restartBtn {
+    padding: 10px;
+    border-radius: 10px;
+    transition: ease-in-out .3s;
+    border: transparent;
+    /* font-family: "Consolas"; */
+    font-size: 20px;
+    font-family: 'Patrick Hand', cursive;
+    color: #ff0000;
+}
+
+#restartBtn:hover {
+    background-color: #000066;
+    color: white;
+    transition: ease-in-out .3s;
+}
+
+#statusText{
+    color:  #0f1f3d;
+    /* lighting-color: #000066; */
+}

@@ -1,0 +1,23 @@
+#gameDiv{
+    font-family: 'Consolas';
+    max-width: 350px;
+    background-color: skyblue;
+    margin: 150px auto;
+    padding: 20px;
+    /* text-align: center; */
+    border: 2px solid rgba(3, 44, 42, 0.859);
+    padding-bottom: 40px;
+}
+
+.choiceBtn{
+    padding: 10px;
+    font-size: 20px;
+    background-color: firebrick;
+    transition: ease-out 0.3s;
+    font-family: 'Consolas';
+}
+.choiceBtn:hover{
+    background-color: rgb(70, 67, 67);
+    color: white;
+    transition: ease-out 0.3s;
+}
