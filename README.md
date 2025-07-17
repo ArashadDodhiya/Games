@@ -12,13 +12,23 @@ A collection of fun and interactive games built with various technologies.
 - Traditional Snake game implementation
 - Features: Score tracking, increasing difficulty, keyboard controls
 
-### 3. Memory Card Game
-- Memory matching card game
-- Features: Timer, move counter, different difficulty levels
-
-### 4. Hangman
-- Word guessing game
-- Features: Random word selection, visual hangman progression, win/lose states
+### 3. Pong Game
+- Classic arcade Pong game implementation
+- Features:
+  - Player vs Computer mode
+  - Score tracking
+  - Increasing ball speed as game progresses
+  - Keyboard controls (W/S or Up/Down arrows)
+  - Responsive design that works on different screen sizes
+  
+### 4. Pong Game
+- Classic arcade Pong game implementation
+- Features:
+  - Player vs Computer mode
+  - Score tracking
+  - Increasing ball speed as game progresses
+  - Keyboard controls (W/S or Up/Down arrows)
+  - Responsive design that works on different screen sizes
 
 ## 🚀 How to Run
 
